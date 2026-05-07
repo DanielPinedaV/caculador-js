@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo_calcu_dm.png">
+</head>
+<body>
+    <!-- DIV 1. Resultado -->
+    <div class="principal">
+            <!-- código para el resultado -->
+        <div class="display" id="display">0</div>
+
+            <div class="botones">
+
+                <button class="btn" onclick="appendNumber('7')">7</button>
+                <button class="btn" onclick="appendNumber('8')">8</button>
+                <button class="btn" onclick="appendNumber('9')">9</button>
+                <button class="btn" id="del" onclick="deleteLast()">DEL</button>
+
+                <button class="btn" onclick="appendNumber('4')">4</button>
+                <button class="btn" onclick="appendNumber('5')">5</button>
+                <button class="btn" onclick="appendNumber('6')">6</button>
+                <button class="btn" onclick="appendOperator('+')">+</button>
+
+                <button class="btn" onclick="appendNumber('1')">1</button>
+                <button class="btn" onclick="appendNumber('2')">2</button>
+                <button class="btn" onclick="appendNumber('3')">3</button>
+                <button class="btn" onclick="appendOperator('-')">-</button>
+
+                <button class="btn" onclick="appendNumber('.')">.</button>
+                <button class="btn" onclick="appendNumber('0')">0</button>
+                <button class="btn" onclick="appendOperator('/')">÷</button>
+                <button class="btn" onclick="appendOperator('*')">x</button>
+
+                <button class="btn" id="reset" onclick="deleteLastOp()">CE</button>
+                <button class="btn" id="reset" onclick="clearDisplay()">AC</button>
+                <button class="btn" id="igual" onclick="calculate()">=</button>
+            
+            </div>
+    </div>
+    <script src="scripts.js"></script>
+     
+</body>
+</html>
