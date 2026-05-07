@@ -30,5 +30,5 @@
 
 ---
 
-## 📁 Estructura del proyecto
+## Vista de la calculadora
 
