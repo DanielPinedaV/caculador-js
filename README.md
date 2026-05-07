@@ -31,4 +31,5 @@
 ---
 
 ## Vista de la calculadora
+<img width="391" height="602" alt="image" src="https://github.com/user-attachments/assets/bc1b4649-97dc-4eac-8f4f-a769f5eac769" />
 
