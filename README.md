@@ -4,7 +4,6 @@
 
 ![Estado](https://img.shields.io/badge/estado-✅_completado-brightgreen)
 ![Tecnología](https://img.shields.io/badge/tech-HTML%20%7C%20CSS%20%7C%20JS-blue)
-![Licencia](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
